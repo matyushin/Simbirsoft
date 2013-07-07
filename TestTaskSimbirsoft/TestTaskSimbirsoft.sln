@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskSimbirsoft", "TestTaskSimbirsoft\TestTaskSimbirsoft.csproj", "{4D5A111D-1F42-42CB-B2F9-6CD9397E0E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLHandlerLibrary", "TextHandlerLibrary\HTMLHandlerLibrary.csproj", "{C113C1D8-DFCE-4872-9CEE-C41CE0CF4EB7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D5A111D-1F42-42CB-B2F9-6CD9397E0E45} = {4D5A111D-1F42-42CB-B2F9-6CD9397E0E45}
+		{C8E8CDCB-211F-48C0-A288-F22F9DA518AD} = {C8E8CDCB-211F-48C0-A288-F22F9DA518AD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandlerInterface", "TextHandlerInterface\TextHandlerInterface.csproj", "{8066680A-833D-4735-AC9E-ED2B4EA008A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandlerLibrary", "TestTextHandlerLibrary\TextHandlerLibrary.csproj", "{C8E8CDCB-211F-48C0-A288-F22F9DA518AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D5A111D-1F42-42CB-B2F9-6CD9397E0E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5A111D-1F42-42CB-B2F9-6CD9397E0E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5A111D-1F42-42CB-B2F9-6CD9397E0E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5A111D-1F42-42CB-B2F9-6CD9397E0E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C113C1D8-DFCE-4872-9CEE-C41CE0CF4EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C113C1D8-DFCE-4872-9CEE-C41CE0CF4EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C113C1D8-DFCE-4872-9CEE-C41CE0CF4EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C113C1D8-DFCE-4872-9CEE-C41CE0CF4EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8066680A-833D-4735-AC9E-ED2B4EA008A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8066680A-833D-4735-AC9E-ED2B4EA008A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8066680A-833D-4735-AC9E-ED2B4EA008A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8066680A-833D-4735-AC9E-ED2B4EA008A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E8CDCB-211F-48C0-A288-F22F9DA518AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E8CDCB-211F-48C0-A288-F22F9DA518AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E8CDCB-211F-48C0-A288-F22F9DA518AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E8CDCB-211F-48C0-A288-F22F9DA518AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
